@@ -1,157 +1,156 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Grazia Ferrara",
+    "label": "Computer Engineer",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "grferrara@unisa.it",
+    "url": "",
+    "summary": "I’m a Ph.D. student in Computer Engineering with a deep interest in how intelligent systems can positively impact public health. My research blends AI, multi-agent systems, and social network analysis to design adaptive, privacy-aware solutions for real-world challenges. I enjoy working at the intersection of theory and application, and I’m particularly drawn to problems that involve human behavior, data ethics, and digital well-being.",
     "location": {
       "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "postalCode": "84013",
+      "city": "Cava de' Tirreni (SA)",
+      "countryCode": "IT",
+      "region": "Campania"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "graziaferrara",
+        "url": "https://www.linkedin.com/in/graziaferrara/"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "University of Salerno, Fisciano, Italy",
+      "position": "Tutor of Computer Networks",
+      "url": "https://unisa.it",
+      "startDate": "2025-03-01",
+      "endDate": "current",
+      "summary": "I assist second-year undergraduate Computer Engineering students with computer networking exercises.",
+      "highlights": ["Computer Networks"]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "University of Salerno, Fisciano, Italy",
+      "position": "Undergraduate Research Fellow",
+      "url": "https://unisa.it",
+      "startDate": "2024-03-01",
+      "endDate": "2024-10-31",
+      "summary": "I was involved in the 'SERICS' project of the 'Information Disorder Awareness' research activity belonging to the DISA-MIS department. I worked in a team of two to design and implement a web application with a microservices architecture, with the aim of detecting the spread of disinformation online.",
+      "highlights": ["Fake News Detection", "Social Media Analysis", "Web Scraping", "Distributed Systems"]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "institution": "University of Salerno, Fisciano, Italy",
+      "location": "Fisciano, Italy",
+      "url": "https://www.unisa.it/",
+      "area": "Computer Engineering - Information Technologies for Digital Medicine",
+      "studyType": "Ph.D.",
+      "startDate": "2024-11-01",
+      "endDate": "current",
+      "score": "",
+      "courses": ["Scientific Writing and Publishing", 
+        "Innovation Management", 
+        "Advanced Machine Learning"]
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "institution": "University of Salerno, Fisciano, Italy",
+      "location": "Fisciano, Italy",
+      "url": "https://www.unisa.it/",
+      "area": "Computer Engineering - Enterprise Software Architectures",
+      "studyType": "M.S. (Cum Laude)",
+      "startDate": "2022-09-15",
+      "endDate": "2024-09-17",
+      "score": "Summa Cum Laude (110L)",
+      "courses": ["Software Engineering", 
+        "High Performance Computing", 
+        "Design and Analysis of Algorithms", 
+        "Machine Learning", 
+        "Automation", 
+        "Algorithms and Protocols for Security", 
+        "Embedded Systems", 
+        "Data Management Systems", 
+        "Distributed Programming", 
+        "Cloud Systems and Advanced Networking", 
+        "Social Networks Analysis", 
+        "Software Architectures for Enterprise Systems", 
+        "Agile software processes and DevOps"]
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
+      "institution": "University of Salerno, Fisciano, Italy",
+      "location": "Fisciano, Italy",
+      "url": "https://www.unisa.it/",
+      "area": "Computer Engineering",
+      "studyType": "Program of Excellence",
+      "startDate": "2023-04-01",
+      "endDate": "2024-07-01",
+      "score": "",
+      "courses": ["Game Programming", 
+        "Intellectual Property Protection", 
+        "Privacy and Data Protection", 
+        "Creating a StartUp: Challenges and Opportunities", 
+        "Ethical AI"]
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
+      "institution": "University of Salerno, Fisciano, Italy",
+      "location": "Fisciano, Italy",
+      "url": "https://www.unisa.it/",
+      "area": "Computer Engineering",
+      "studyType": "B.S. (Cum Laude)",
+      "startDate": "2019-09-15",
+      "endDate": "2022-07-26",
+      "score": "Summa Cum Laude (110L)",
+      "courses": ["Calculus 1 & 2", 
+        "Foundations of Programming", 
+        "Physics 1 & 2", 
+        "Computer Organization", 
+        "Geometry, Algebra and Logic", 
+        "Logic Networks", 
+        "Electrotechnics", 
+        "Algorithms and Data Structures", 
+        "Operating Systems", 
+        "Computer Networks", 
+        "Foundamentals of Signals and Transmissions", 
+        "Foundamentals of Automatic Control", 
+        "Object Oriented Programming", 
+        "Computer Technologies for Automatic Control", 
+        "Applied Statistic", 
+        "Antennas and Wireless Links", 
+        "Internet of Things", 
+        "Software Technologies of the WEB", 
+        "Databases"]
     },
     {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+      "institution": "University of Salerno, Fisciano, Italy",
+      "location": "Fisciano, Italy",
+      "url": "http://www.applefoundationprogram.unisa.it",
+      "area": "Computer Engineering",
+      "studyType": "Apple Foundation Program",
+      "startDate": "2022-01-01",
+      "endDate": "2022-02-01",
+      "score": "",
+      "courses": [
+        "Challenge Based Learning (CBL)",
+        "Swift",  
+        "UI/UX & Guidelines", 
+        "Gamification"
       ]
     }
   ],
+  "awards": [
+      {
+        "title": "Excellent Academic Career",
+        "date": "2023-03-03",
+        "awarder": "University of Salerno",
+        "url": "https://www.unisa.it",
+        "summary": "Awarded for completing a bachelor degree in Computer Engineering cum laude within 36 months."
+      }
+  ],
   "languages": [
     {
-      "language": "German",
+      "language": "Italian",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -161,40 +160,78 @@
       "icon": ""
     }
   ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "How to Mitigate Disagreement and Polarization in Opinion Formation Processes on Social Networks",
+      "summary": "Experimental M.S. thesis in Social Network Analysis. The project aims to study the dynamics of opinion formation in social networks and to propose mitigation techniques to reduce polarization and disagreement among users.",
+      "highlights": ["Opinion Formation", "Social networks", "Mitigation Techniques"],
+      "startDate": "2024-03-01",
+      "endDate": "2024-08-31",
+      "url": "https://ceur-ws.org/Vol-3883/paper2_SPIRIT_Auletta.pdf"
+    },
+    {
+      "name": "Search4Researchers Web Application",
+      "summary": "Design and implementation of a microservices-based Web Application to allow the research of researchers all over Italy. The application allowed to use scrapers for different sources (e.g. Scopus, Cineca, SJR, etc.) to collect data on researchers an their publications. Used DevOps philosophy and tools for Continuous Integration / Continuous Deployment.",
+      "highlights": ["Web Application", "Microservices", "Scraping", "DevOps"],
+      "startDate": "2024-05-01",
+      "endDate": "2024-06-31",
+      "url": ""
+    },
+    {
+      "name": "Performance and availiability analysis of a virtualized IMS",
+      "summary": "Used Jackson and BCMP networks to assess and improve IMS' performances. Used Stochastic Reward Networks and Reliability Block Diagrams to assess and improve IMS' availability. Implemented an algorithm both for performance and availability optimization.",
+      "highlights": ["Performance Analysis", "Availability Analysis", "Stochastic Reward Networks", "Reliability Block Diagrams"],
+      "startDate": "2023-12-01",
+      "endDate": "2024-01-01",
+      "url": "https://github.com/FST-team/Cloud-PW"
+    },
+    {
+      "name": "Choice of a seed set to maximize an auction's income in a unknown synthetic network",
+      "summary": "Implementation of mining algorithms, centrality measures, MUDAN, SNAC and VCG auctions and bandit algorithms such as Epsilon-Greedy, UCB and Exp3. Estimate of the parameters used to generate an unknown synthetic network by means of network mining and implementation of a seeding logic to maximize the seller's income on the given network.",
+      "highlights": ["Network Mining", "Centrality Measures", "Auctions", "Bandit Algorithms"],
+      "startDate": "2023-10-30",
+      "endDate": "2024-01-06",
+      "url": "https://github.com/SNA24/final_project"
+    },
+    {
+      "name": "Design and implementation of a NoSQL database for the sentiment analysis of the tweets",
+      "summary": "Collected tweets with a custom scraper and performed the sentiment analysis. Designed and implemented the database in MongoDB, performed the porting of the database in Neo4j and then compared performances.",
+      "highlights": ["Sentiment Analysis", "MongoDB", "Neo4j", "Web Scraping"],
+      "startDate": "2023-10-01",
+      "endDate": "2024-01-01",
+      "url": "https://github.com/graziaferrara/TwitterSentimentAnalysisDB"
+    },
+    {
+      "name": "Fire detection in videos taken by static surveillance cameras",
+      "summary": "The project aims to detect fires in videos taken by static surveillance cameras. The project includes the design and implementation of a deep learning model for fire detection. Adopted both a binary classification approach (fire/no fire) and a multi-label approach (considering fire, no fire and smoke).",
+      "highlights": ["Deep Learning", "Fire Detection", "Computer Vision"],
+      "startDate": "2023-06-01",
+      "endDate": "2023-07-01",
+      "url": "https://github.com/CFG-Official/MachineLearning"
+    },
+    {
+      "name": "Parallelization of Tarjan and Kosaraju's algorithms for the search of the strongly connected components in a graph",
+      "summary": "The project aims to parallelize Tarjan and Kosaraju's algorithms for the search of the strongly connected components in a graph. The computation of the SCC was made with different processes, each of them having a piece of the original graph, results were then merged by means of message passing and this was iterated until a single process with the comprehensive result was left.",
+      "highlights": ["Parallelization", "Graph Theory", "Message Passing"],
+      "startDate": "2022-09-01",
+      "endDate": "2023-01-01",
+      "url": "https://github.com/group04HPC/Parallelization"
+    },
+    {
+      "name": "Implementation of a geometrical drawing app by means of a SCRUM process",
+      "summary": "The project consists of the design and implementation of a geometrical drawing app. The app allows users to create and manipulate geometric shapes. The project was developed using the SCRUM methodology.",
+      "highlights": ["Geometric Drawing", "SCRUM", "App Development"],
+      "startDate": "2022-09-20",
+      "endDate": "2022-12-01",
+      "url": "https://github.com/SETeam2022/SeOfficialRepo"
+    },
+    {
+      "name": "PackMe: Design and Implementation of a iOS App to simplify the organization of one's luggage. Implementation of the speech-to-text functionality.",
+      "summary": "Implementative B.S. thesis. The project consists of the design and implementation of an iOS app that allows users to create a list of items to pack for a trip. The app includes a speech-to-text functionality to facilitate the input of items.",
+      "highlights": ["iOS Development", "Swift", "Speech-to-Text"],
+      "startDate": "2022-04-01",
+      "endDate": "2022-06-15",
+      "url": "https://apps.apple.com/it/app/packme/id6737287789?l=en-GB"
     }
   ]
 }
