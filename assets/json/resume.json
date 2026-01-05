@@ -5,9 +5,9 @@
     "image": "",
     "email": "grferrara@unisa.it",
     "url": "",
-    "summary": "I’m a Ph.D. student in Computer Engineering with a deep interest in how intelligent systems can positively impact public health. My research blends AI, multi-agent systems, and social network analysis to design adaptive, privacy-aware solutions for real-world challenges. I enjoy working at the intersection of theory and application, and I’m particularly drawn to problems that involve human behavior, data ethics, and digital well-being.",
+    "summary": "I’m a Ph.D. student in Computer Engineering with a deep interest in intelligent systems. My research blends AI, multi-agent systems, and network dynamics to design adaptive, fair and privacy-aware solutions for real-world challenges.",
     "location": {
-      "address": "2712 Broadway St",
+      "address": "",
       "postalCode": "84013",
       "city": "Cava de' Tirreni (SA)",
       "countryCode": "IT",
@@ -26,8 +26,8 @@
       "name": "University of Salerno, Fisciano, Italy",
       "position": "Tutor of Computer Networks",
       "url": "https://unisa.it",
-      "startDate": "2025-03-01",
-      "endDate": "current",
+      "startDate": "2025-03",
+      "endDate": "2025-07",
       "summary": "I assist second-year undergraduate Computer Engineering students with computer networking exercises.",
       "highlights": ["Computer Networks"]
     },
