@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented our paper "Adaptive Influence Maximization on Hypergraph Topologies" at PRIMA 2025 in Modena, Italy.
+Presented our paper "Influence Maximization in Unknown Social Networks: A Contextual Bandit Approach" at PRIMA 2025 in Modena, Italy.
