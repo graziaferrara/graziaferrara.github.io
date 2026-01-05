@@ -24,17 +24,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a first-year Ph.D. student in Computer Engineering at the [University of Salerno](https://unisa.it), co-advised by prof. [Vincenzo Auletta](https://docenti.unisa.it/001366/home) and prof. [Diodato Ferraioli](https://docenti.unisa.it/023604/home) and affilated with the CORE Lab. 
+I am a Ph.D. student in Computer Engineering at the [University of Salerno](https://unisa.it), co-advised by prof. [Vincenzo Auletta](https://docenti.unisa.it/001366/home) and prof. [Diodato Ferraioli](https://docenti.unisa.it/023604/home) and affilated with the CORE Lab. 
 
-I am enrolled in the Information Technologies for Digital Medicine 💉💊 curriculum. 
-
-I work on the usage on AI and Multi-Agent Systems to solve Public Health and medical issues.
-
-Specifically, I am investigating:
-- **influence maximization** in unknown and evolving networks for prevention/vaccination campaigns,
-- **privacy-aware** influence strategies,
-- **personalized interventions** to tailor influence strategies to individual user behaviours and demographics,
-- the role of **LLM-driven agents** as influential nodes in social and health-related networks.
+I am enrolled in the Information Technologies for Digital Medicine 💉💊 curriculum and I work with AI and Multi-Agent Systems.
 
 Previously, I did both my B.S. and M.S. in Computer Engineering at the DIEM department of the [University of Salerno](https://unisa.it). 
 
