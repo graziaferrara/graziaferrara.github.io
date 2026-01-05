@@ -51,9 +51,7 @@
       "startDate": "2024-11-01",
       "endDate": "current",
       "score": "",
-      "courses": ["Scientific Writing and Publishing", 
-        "Innovation Management", 
-        "Advanced Machine Learning"]
+      "courses": ["Scientific Writing and Publishing", "Innovation Management", "Advanced Machine Learning"]
     },
     {
       "institution": "University of Salerno, Fisciano, Italy",
@@ -64,19 +62,21 @@
       "startDate": "2022-09-15",
       "endDate": "2024-09-17",
       "score": "Summa Cum Laude (110L)",
-      "courses": ["Software Engineering", 
-        "High Performance Computing", 
-        "Design and Analysis of Algorithms", 
-        "Machine Learning", 
-        "Automation", 
-        "Algorithms and Protocols for Security", 
-        "Embedded Systems", 
-        "Data Management Systems", 
-        "Distributed Programming", 
-        "Cloud Systems and Advanced Networking", 
-        "Social Networks Analysis", 
-        "Software Architectures for Enterprise Systems", 
-        "Agile software processes and DevOps"]
+      "courses": [
+        "Software Engineering",
+        "High Performance Computing",
+        "Design and Analysis of Algorithms",
+        "Machine Learning",
+        "Automation",
+        "Algorithms and Protocols for Security",
+        "Embedded Systems",
+        "Data Management Systems",
+        "Distributed Programming",
+        "Cloud Systems and Advanced Networking",
+        "Social Networks Analysis",
+        "Software Architectures for Enterprise Systems",
+        "Agile software processes and DevOps"
+      ]
     },
     {
       "institution": "University of Salerno, Fisciano, Italy",
@@ -87,11 +87,13 @@
       "startDate": "2023-04-01",
       "endDate": "2024-07-01",
       "score": "",
-      "courses": ["Game Programming", 
-        "Intellectual Property Protection", 
-        "Privacy and Data Protection", 
-        "Creating a StartUp: Challenges and Opportunities", 
-        "Ethical AI"]
+      "courses": [
+        "Game Programming",
+        "Intellectual Property Protection",
+        "Privacy and Data Protection",
+        "Creating a StartUp: Challenges and Opportunities",
+        "Ethical AI"
+      ]
     },
     {
       "institution": "University of Salerno, Fisciano, Italy",
@@ -102,25 +104,27 @@
       "startDate": "2019-09-15",
       "endDate": "2022-07-26",
       "score": "Summa Cum Laude (110L)",
-      "courses": ["Calculus 1 & 2", 
-        "Foundations of Programming", 
-        "Physics 1 & 2", 
-        "Computer Organization", 
-        "Geometry, Algebra and Logic", 
-        "Logic Networks", 
-        "Electrotechnics", 
-        "Algorithms and Data Structures", 
-        "Operating Systems", 
-        "Computer Networks", 
-        "Foundamentals of Signals and Transmissions", 
-        "Foundamentals of Automatic Control", 
-        "Object Oriented Programming", 
-        "Computer Technologies for Automatic Control", 
-        "Applied Statistic", 
-        "Antennas and Wireless Links", 
-        "Internet of Things", 
-        "Software Technologies of the WEB", 
-        "Databases"]
+      "courses": [
+        "Calculus 1 & 2",
+        "Foundations of Programming",
+        "Physics 1 & 2",
+        "Computer Organization",
+        "Geometry, Algebra and Logic",
+        "Logic Networks",
+        "Electrotechnics",
+        "Algorithms and Data Structures",
+        "Operating Systems",
+        "Computer Networks",
+        "Foundamentals of Signals and Transmissions",
+        "Foundamentals of Automatic Control",
+        "Object Oriented Programming",
+        "Computer Technologies for Automatic Control",
+        "Applied Statistic",
+        "Antennas and Wireless Links",
+        "Internet of Things",
+        "Software Technologies of the WEB",
+        "Databases"
+      ]
     },
     {
       "institution": "University of Salerno, Fisciano, Italy",
@@ -131,22 +135,17 @@
       "startDate": "2022-01-01",
       "endDate": "2022-02-01",
       "score": "",
-      "courses": [
-        "Challenge Based Learning (CBL)",
-        "Swift",  
-        "UI/UX & Guidelines", 
-        "Gamification"
-      ]
+      "courses": ["Challenge Based Learning (CBL)", "Swift", "UI/UX & Guidelines", "Gamification"]
     }
   ],
   "awards": [
-      {
-        "title": "Excellent Academic Career",
-        "date": "2023-03-03",
-        "awarder": "University of Salerno",
-        "url": "https://www.unisa.it",
-        "summary": "Awarded for completing a bachelor degree in Computer Engineering cum laude within 36 months."
-      }
+    {
+      "title": "Excellent Academic Career",
+      "date": "2023-03-03",
+      "awarder": "University of Salerno",
+      "url": "https://www.unisa.it",
+      "summary": "Awarded for completing a bachelor degree in Computer Engineering cum laude within 36 months."
+    }
   ],
   "languages": [
     {

@@ -24,10 +24,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Ph.D. student in Computer Engineering at the [University of Salerno](https://unisa.it), co-advised by prof. [Vincenzo Auletta](https://docenti.unisa.it/001366/home) and prof. [Diodato Ferraioli](https://docenti.unisa.it/023604/home) and affilated with the CORE Lab. 
+I am a Ph.D. student in Computer Engineering at the [University of Salerno](https://unisa.it), co-advised by prof. [Vincenzo Auletta](https://docenti.unisa.it/001366/home) and prof. [Diodato Ferraioli](https://docenti.unisa.it/023604/home) and affilated with the CORE Lab.
 
 I am enrolled in the Information Technologies for Digital Medicine 💉💊 curriculum and I work with AI and Multi-Agent Systems.
 
-Previously, I did both my B.S. and M.S. in Computer Engineering at the DIEM department of the [University of Salerno](https://unisa.it). 
-
-
+Previously, I did both my B.S. and M.S. in Computer Engineering at the DIEM department of the [University of Salerno](https://unisa.it).
