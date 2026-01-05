@@ -62,8 +62,8 @@ ninja.data = [{
           section: "News",},{id: "news-presented-my-paper-designing-deployable-public-health-campaigns-via-online-learning-techniques-at-ecai-2025-s-doctoral-consortium-in-bologna-italy",
           title: 'Presented my paper “Designing Deployable Public Health Campaigns via Online Learning Techniques” at...',
           description: "",
-          section: "News",},{id: "news-presented-our-paper-adaptive-influence-maximization-on-hypergraph-topologies-at-prima-2025-in-modena-italy",
-          title: 'Presented our paper “Adaptive Influence Maximization on Hypergraph Topologies” at PRIMA 2025 in...',
+          section: "News",},{id: "news-presented-our-paper-influence-maximization-in-unknown-social-networks-a-contextual-bandit-approach-at-prima-2025-in-modena-italy",
+          title: 'Presented our paper “Influence Maximization in Unknown Social Networks: A Contextual Bandit Approach”...',
           description: "",
           section: "News",},{
         id: 'social-email',
