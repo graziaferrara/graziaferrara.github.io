@@ -13,6 +13,21 @@ profile:
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
+services:
+  enabled: true
+  entries:
+    - year: 2025
+      categories:
+        - category: Workshop Committees
+          items:
+            - name: PC Member, HC@AIxIA+HYDRA2025
+              url: https://sites.google.com/unical.it/hcaixia-hydra-2025/the-workshop/committees?authuser=0
+            - name: PC Member, HyperSCI2025
+              url: https://hypersci2025.github.io/
+        - category: Reviewing
+          items:
+            - Discover Artificial Intelligence (1 manuscript)
+
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items

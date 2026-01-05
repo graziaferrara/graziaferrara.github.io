@@ -1,0 +1,17 @@
+{% if page.services and page.services.enabled and page.services.entries %}
+  <h2>services</h2>
+  <div class="services">
+    {% for entry in page.services.entries %}
+      <div class="services-entry">
+        <div class="services-year">{{ entry.year }}</div>
+        <div class="services-items">
+          <ul>
+            {% for item in entry.items %}
+              <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}

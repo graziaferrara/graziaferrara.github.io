@@ -48,6 +48,38 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
+    <!-- Services -->
+    {% if page.services.enabled %}
+      <h2>services</h2>
+      <ul>
+        {% for entry in page.services.entries %}
+          <li>
+            <strong>{{ entry.year }}</strong>
+            <ul>
+              {% for category in entry.categories %}
+                {% if category.items %}
+                  <li>
+                    {{ category.category }}
+                    <ul>
+                      {% for item in category.items %}
+                        <li>
+                          {% if item.url %}
+                            <a href="{{ item.url }}">{{ item.name }}</a>
+                          {% else %}
+                            {{ item }}
+                          {% endif %}
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
       <h2>
