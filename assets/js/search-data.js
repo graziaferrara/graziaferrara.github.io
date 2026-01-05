@@ -62,8 +62,11 @@ ninja.data = [{
           section: "News",},{id: "news-presented-my-paper-designing-deployable-public-health-campaigns-via-online-learning-techniques-at-ecai-2025-s-doctoral-consortium-in-bologna-italy",
           title: 'Presented my paper “Designing Deployable Public Health Campaigns via Online Learning Techniques” at...',
           description: "",
-          section: "News",},{id: "news-presented-our-paper-influence-maximization-in-unknown-social-networks-a-contextual-bandit-approach-at-prima-2025-in-modena-italy",
-          title: 'Presented our paper “Influence Maximization in Unknown Social Networks: A Contextual Bandit Approach”...',
+          section: "News",},{id: "news-honored-to-give-a-talk-on-mas-in-public-health-at-the-multi-agent-systems-2025-26-course-at-the-university-of-salerno",
+          title: 'Honored to give a talk on “MAS in Public Health” at the Multi...',
+          description: "",
+          section: "News",},{id: "news-presented-our-paper-influence-maximization-in-unknown-social-networks-a-contextual-bandit-approach-extended-abstract-at-prima-2025-in-modena-italy",
+          title: 'Presented our paper “Influence Maximization in Unknown Social Networks: A Contextual Bandit Approach...',
           description: "",
           section: "News",},{
         id: 'social-email',
