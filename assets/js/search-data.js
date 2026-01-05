@@ -59,7 +59,7 @@ ninja.data = [{
           section: "News",},{id: "news-presented-our-paper-adaptive-influence-maximization-on-hypergraph-topologies-at-eumas-2025-in-bucharest-romania",
           title: 'Presented our paper “Adaptive Influence Maximization on Hypergraph Topologies” at EUMAS 2025 in...',
           description: "",
-          section: "News",},{id: "news-presented-my-paper-designing-deployable-public-health-campaigns-via-online-learning-techniques-at-ecai-2025-s-doctoral-consortium-in-bologna-italy",
+          section: "News",},{id: "news-presented-my-paper-designing-deployable-public-health-campaigns-via-online-learning-techniques-at-ecai-2025-doctoral-consortium-in-bologna-italy",
           title: 'Presented my paper “Designing Deployable Public Health Campaigns via Online Learning Techniques” at...',
           description: "",
           section: "News",},{id: "news-honored-to-give-a-talk-on-mas-in-public-health-at-the-multi-agent-systems-2025-26-course-at-the-university-of-salerno",
