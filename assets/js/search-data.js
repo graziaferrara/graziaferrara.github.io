@@ -56,6 +56,12 @@ ninja.data = [{
           section: "News",},{id: "news-this-site-is-live",
           title: 'This site is live.',
           description: "",
+          section: "News",},{id: "news-presented-adaptive-influence-maximization-on-hypergraph-topologies-at-eumas-2025-in-bucharest-romania",
+          title: 'Presented “Adaptive Influence Maximization on Hypergraph Topologies” at EUMAS 2025 in Bucharest, Romania....',
+          description: "",
+          section: "News",},{id: "news-presented-adaptive-influence-maximization-on-hypergraph-topologies-at-prima-2025-in-modena-italy",
+          title: 'Presented “Adaptive Influence Maximization on Hypergraph Topologies” at PRIMA 2025 in Modena, Italy....',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
