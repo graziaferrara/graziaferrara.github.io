@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented "Adaptive Influence Maximization on Hypergraph Topologies" at PRIMA 2025 in Modena, Italy.
+Presented our paper "Adaptive Influence Maximization on Hypergraph Topologies" at PRIMA 2025 in Modena, Italy.
