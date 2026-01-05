@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Honored to give a talk on "MAS in Public Health" at the Multi Agent Systems (2025/26) Course at the University of Salerno.
+Honored to give a talk on "MAS in Public Health" at the [Multi Agent Systems (2025/26)](https://unisa.coursecatalogue.cineca.it/insegnamenti/2025/523123/2022/10004/500191?coorte=2024&schemaid=18184) Course at the University of Salerno.

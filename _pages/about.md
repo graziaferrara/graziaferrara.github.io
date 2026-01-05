@@ -16,7 +16,7 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 6 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false
@@ -28,4 +28,4 @@ I am a Ph.D. student in Computer Engineering at the [University of Salerno](http
 
 I am enrolled in the Information Technologies for Digital Medicine curriculum and I work with AI and Multi-Agent Systems.
 
-Previously, I did both my B.S. and M.S. in Computer Engineering at the DIEM department of the [University of Salerno](https://unisa.it).
+Previously, I completed both my B.S. and M.S. in Computer Engineering at the DIEM department of the [University of Salerno](https://unisa.it).
