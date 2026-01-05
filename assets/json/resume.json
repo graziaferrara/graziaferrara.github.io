@@ -51,7 +51,14 @@
       "startDate": "2024-11-01",
       "endDate": "current",
       "score": "",
-      "courses": ["Scientific Writing and Publishing", "Innovation Management", "Advanced Machine Learning"]
+      "courses": [
+        "Scientific Writing and Publishing",
+        "Innovation Management",
+        "Advanced Machine Learning",
+        "Innovative Research Technologies in Industrial Settings",
+        "Optimization Techniques for Engineers",
+        "Advanced AI for Digital Medicine"
+      ]
     },
     {
       "institution": "University of Salerno, Fisciano, Italy",
