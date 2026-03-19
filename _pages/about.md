@@ -16,6 +16,12 @@ social: true # includes social icons at the bottom of the page
 services:
   enabled: true
   entries:
+  - year: 2026
+      categories:
+        - category: Workshop Committees
+          items:
+            - name: PC Member, ASI2026
+              url: https://panosd.eu/asi2026/#programme
     - year: 2025
       categories:
         - category: Workshop Committees
