@@ -7,7 +7,7 @@ subtitle: Hi, I am Grazia!
 profile:
   align: right
   image: img.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -15,13 +15,24 @@ social: true # includes social icons at the bottom of the page
 
 services:
   enabled: true
+  scrollable: true
+  max_height: 15rem
   entries:
     - year: 2026
       categories:
-        - category: Workshop Committees
+        - category: Conference/Workshop Committees
           items:
             - name: PC Member, ASI2026
               url: https://panosd.eu/asi2026/
+            - name: TPC Member, IEEE Digital Twin 2026
+              url: https://swc-ieee-2026.github.io/digitaltwin/
+            - name: PC Member, SPIRIT2026
+              url: https://sites.google.com/unical.it/spirit2026/committees?authuser=1
+        - category: Reviewing
+          items:
+            - Subreviewer for SAGT 2026 (1 manuscript)
+            - Emergency Reviewer for UAI 2026 (1 manuscript)
+            - Emergency Reviewer for NeurIPS 2026 (1 manuscript)
     - year: 2025
       categories:
         - category: Workshop Committees
@@ -37,6 +48,7 @@ services:
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  max_height: 15rem
   limit: 6 # leave blank to include all the news in the `_news` folder
 
 latest_posts:

@@ -35,6 +35,17 @@ body.sticky-bottom-footer {
 .profile {
   img {
     width: 100%;
+    aspect-ratio: 1 / 1;
+    max-height: 220px;
+    width: auto;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+.post-header {
+  .desc {
+    margin-top: 1.5rem;
   }
 }
 
@@ -51,3 +62,196 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+
+/*****************************************************************************
+* Timeline-based lists (Services & News)
+*****************************************************************************/
+
+.news-wrapper,
+.services-wrapper {
+  position: relative;
+  margin-bottom: 3.5rem; /* plenty of space between sections, addressing user feedback! */
+  
+  &.scrollable {
+    --scroll-max-height: 20rem;
+    max-height: var(--scroll-max-height);
+    overflow-y: auto;
+    padding-right: 8px; /* space for scrollbar */
+    
+    /* Fade out at the bottom to signal scrollability */
+    mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
+    
+    /* Custom premium scrollbar styling */
+    &::-webkit-scrollbar {
+      width: 6px;
+    }
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: var(--global-divider-color);
+      border-radius: 10px;
+      transition: background-color 0.2s ease;
+      
+      &:hover {
+        background-color: var(--global-theme-color);
+      }
+    }
+  }
+}
+
+/* Set specific max heights if configured */
+.news-wrapper.scrollable {
+  --scroll-max-height: var(--news-max-height, 15rem);
+}
+.services-wrapper.scrollable {
+  --scroll-max-height: var(--services-max-height, 20rem);
+}
+
+.news-list,
+.services-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 0.5rem 0;
+}
+
+.news-entry,
+.services-entry {
+  display: flex;
+  position: relative;
+  gap: 1.5rem;
+
+  @media (max-width: 576px) {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+.news-date,
+.services-year {
+  flex-shrink: 0;
+  text-align: right;
+  
+  @media (max-width: 576px) {
+    text-align: left;
+    width: auto;
+  }
+}
+
+.news-date {
+  width: 100px;
+}
+
+.services-year {
+  width: 60px;
+}
+
+.date-badge,
+.year-badge {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--global-theme-color);
+  background-color: var(--global-code-bg-color);
+  padding: 0.2rem 0.6rem;
+  border-radius: 6px;
+  border: 1px solid var(--global-divider-color);
+  transition: all 0.2s ease-in-out;
+  text-align: center;
+}
+
+.news-content,
+.services-content {
+  flex-grow: 1;
+  border-left: 2px solid var(--global-divider-color);
+  padding-left: 1.5rem;
+  
+  @media (max-width: 576px) {
+    border-left: none;
+    padding-left: 0.5rem;
+  }
+}
+
+.news-content {
+  display: block;
+  font-size: 0.95rem;
+  color: var(--global-text-color);
+  
+  p {
+    margin-bottom: 0;
+  }
+  
+  a {
+    color: var(--global-theme-color);
+    text-decoration: none;
+    font-weight: 500;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.services-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.services-category {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.category-title {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--global-text-color);
+  opacity: 0.85;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.category-items {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.category-item {
+  font-size: 0.95rem;
+  color: var(--global-text-color-light);
+  position: relative;
+  padding-left: 1.2rem;
+  transition: transform 0.2s ease;
+  
+  &:hover {
+    transform: translateX(2px);
+  }
+
+  &::before {
+    content: "•";
+    color: var(--global-theme-color);
+    position: absolute;
+    left: 0.2rem;
+    top: 0;
+    font-size: 1.1rem;
+    line-height: 1.2;
+  }
+  
+  a {
+    color: var(--global-theme-color);
+    text-decoration: none;
+    font-weight: 500;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

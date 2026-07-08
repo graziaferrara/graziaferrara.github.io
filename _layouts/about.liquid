@@ -51,33 +51,38 @@ layout: default
     <!-- Services -->
     {% if page.services.enabled %}
       <h2>services</h2>
-      <ul>
-        {% for entry in page.services.entries %}
-          <li>
-            <strong>{{ entry.year }}</strong>
-            <ul>
-              {% for category in entry.categories %}
-                {% if category.items %}
-                  <li>
-                    {{ category.category }}
-                    <ul>
-                      {% for item in category.items %}
-                        <li>
-                          {% if item.url %}
-                            <a href="{{ item.url }}">{{ item.name }}</a>
-                          {% else %}
-                            {{ item }}
-                          {% endif %}
-                        </li>
-                      {% endfor %}
-                    </ul>
-                  </li>
-                {% endif %}
-              {% endfor %}
-            </ul>
-          </li>
-        {% endfor %}
-      </ul>
+      <div class="services-wrapper {% if page.services.scrollable %}scrollable{% endif %}"
+           {% if page.services.scrollable and page.services.max_height %}style="--services-max-height: {{ page.services.max_height }};"{% endif %}>
+        <div class="services-list">
+          {% for entry in page.services.entries %}
+            <div class="services-entry">
+              <div class="services-year">
+                <span class="year-badge">{{ entry.year }}</span>
+              </div>
+              <div class="services-content">
+                {% for category in entry.categories %}
+                  {% if category.items %}
+                    <div class="services-category">
+                      <div class="category-title">{{ category.category }}</div>
+                      <ul class="category-items">
+                        {% for item in category.items %}
+                          <li class="category-item">
+                            {% if item.url %}
+                              <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.name }}</a>
+                            {% else %}
+                              {{ item }}
+                            {% endif %}
+                          </li>
+                        {% endfor %}
+                      </ul>
+                    </div>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
     {% endif %}
 
     <!-- Latest posts -->
