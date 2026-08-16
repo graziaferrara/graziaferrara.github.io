@@ -71,8 +71,8 @@ ninja.data = [{
           section: "News",},{id: "news-presented-an-extended-version-of-our-paper-influence-maximization-in-unknown-social-networks-a-contextual-bandit-approach-at-the-asi-workshop-aamas-2026-also-attended-aamas-in-paphos-cyprus",
           title: 'Presented an extended version of our paper “Influence Maximization in Unknown Social Networks:...',
           description: "",
-          section: "News",},{id: "news-volunteering-at-ec-2026-in-rome-italy",
-          title: 'Volunteering at EC 2026 in Rome, Italy.',
+          section: "News",},{id: "news-this-week-i-am-volunteering-at-ec-2026-in-rome-italy",
+          title: 'This week I am volunteering at EC 2026 in Rome, Italy!',
           description: "",
           section: "News",},{
         id: 'social-email',
