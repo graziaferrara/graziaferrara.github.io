@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Volunteering at [EC 2026](https://ec26.sigecom.org/) in Rome, Italy.
+This week I am volunteering at [EC 2026](https://ec26.sigecom.org/) in Rome, Italy!
