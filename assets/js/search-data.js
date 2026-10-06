@@ -86,6 +86,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-marginal-cohesion-centrality-identifying-glue-nodes-in-hypergraphs-co-authored-with-francesco-cauteruccio-vincenzo-auletta-and-diodato-ferraioli-won-the-best-paper-award-asonam-2026",
           title: '🏆 Our paper “Marginal Cohesion Centrality: Identifying Glue Nodes in Hypergraphs”, co-authored with...',
           description: "",
+          section: "News",},{id: "news-i-started-my-visiting-period-as-a-phd-student-at-the-department-of-computer-science-of-the-university-of-warwick-under-the-supervision-of-prof-paolo-turrini",
+          title: 'I started my visiting period as a PhD student at the Department of...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
