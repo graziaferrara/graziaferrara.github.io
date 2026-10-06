@@ -51,8 +51,12 @@ layout: default
     <!-- Services -->
     {% if page.services.enabled %}
       <h2>services</h2>
-      <div class="services-wrapper {% if page.services.scrollable %}scrollable{% endif %}"
-           {% if page.services.scrollable and page.services.max_height %}style="--services-max-height: {{ page.services.max_height }};"{% endif %}>
+      <div
+        class="services-wrapper {% if page.services.scrollable %}scrollable{% endif %}"
+        {% if page.services.scrollable and page.services.max_height %}
+          style="--services-max-height: {{ page.services.max_height }};"
+        {% endif %}
+      >
         <div class="services-list">
           {% for entry in page.services.entries %}
             <div class="services-entry">

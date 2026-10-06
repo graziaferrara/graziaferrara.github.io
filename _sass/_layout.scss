@@ -71,17 +71,17 @@ body.sticky-bottom-footer {
 .services-wrapper {
   position: relative;
   margin-bottom: 3.5rem; /* plenty of space between sections, addressing user feedback! */
-  
+
   &.scrollable {
     --scroll-max-height: 20rem;
     max-height: var(--scroll-max-height);
     overflow-y: auto;
     padding-right: 8px; /* space for scrollbar */
-    
+
     /* Fade out at the bottom to signal scrollability */
     mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
     -webkit-mask-image: linear-gradient(to bottom, black 85%, transparent 100%);
-    
+
     /* Custom premium scrollbar styling */
     &::-webkit-scrollbar {
       width: 6px;
@@ -93,7 +93,7 @@ body.sticky-bottom-footer {
       background-color: var(--global-divider-color);
       border-radius: 10px;
       transition: background-color 0.2s ease;
-      
+
       &:hover {
         background-color: var(--global-theme-color);
       }
@@ -133,7 +133,7 @@ body.sticky-bottom-footer {
 .services-year {
   flex-shrink: 0;
   text-align: right;
-  
+
   @media (max-width: 576px) {
     text-align: left;
     width: auto;
@@ -167,7 +167,7 @@ body.sticky-bottom-footer {
   flex-grow: 1;
   border-left: 2px solid var(--global-divider-color);
   padding-left: 1.5rem;
-  
+
   @media (max-width: 576px) {
     border-left: none;
     padding-left: 0.5rem;
@@ -178,16 +178,16 @@ body.sticky-bottom-footer {
   display: block;
   font-size: 0.95rem;
   color: var(--global-text-color);
-  
+
   p {
     margin-bottom: 0;
   }
-  
+
   a {
     color: var(--global-theme-color);
     text-decoration: none;
     font-weight: 500;
-    
+
     &:hover {
       text-decoration: underline;
     }
@@ -230,7 +230,7 @@ body.sticky-bottom-footer {
   position: relative;
   padding-left: 1.2rem;
   transition: transform 0.2s ease;
-  
+
   &:hover {
     transform: translateX(2px);
   }
@@ -244,12 +244,12 @@ body.sticky-bottom-footer {
     font-size: 1.1rem;
     line-height: 1.2;
   }
-  
+
   a {
     color: var(--global-theme-color);
     text-decoration: none;
     font-weight: 500;
-    
+
     &:hover {
       text-decoration: underline;
     }
